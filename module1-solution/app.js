@@ -25,7 +25,7 @@
             else if(word.length <= 3){
                 $scope.Output = "Enjoy!"
 
-            }else if(word.length > 3){
+            }else if(word.length > 3){   
                 $scope.Output = "Too much!"
 
             }
