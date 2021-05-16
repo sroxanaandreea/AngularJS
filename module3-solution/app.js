@@ -7,7 +7,7 @@
     .constant('ApiBasePath', "https://davids-restaurant.herokuapp.com")
     .directive('foundItems', FoundItems);
   
-    function FoundItems() {
+    function FoundItems() {  
       var ddo = {
         templateUrl: 'items.html',
         scope: {
